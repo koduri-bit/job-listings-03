@@ -1,0 +1,96 @@
+
+
+.jobitem{
+    margin-top: 1em;
+    height: 110px;
+    background-color: hsl(188, 100%, 100%);
+    border-radius: .15em;
+    box-shadow: 3px 4px 17px 0 hsl(180, 52%, 86%);
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-logo{
+    margin-left: 1.2em;
+    height: 5em;
+    width: 5em;
+}
+.item-language{
+    margin-right: 10%;
+}
+.position{
+    font-size: 1em;
+    font-weight: bold;
+    color: hsl(180, 1%, 25%);
+}
+.centerItem{
+    margin: 0;
+    margin-left: 2em;
+    padding: 0;
+    height: 5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: start;
+    align-items: center;
+}
+
+@media (max-width: 376px) {
+
+
+
+    .jobitem:nth-child(1){
+        margin-top: 1.2em;
+    }
+    .jobitem{
+        justify-content: initial;
+        align-items: initial;
+        margin-top: 0;
+        margin-bottom: 4.3em;
+        height: 250px;
+        background-color: hsl(188, 100%, 100%);
+        border-radius: .15em;
+        box-shadow: 3px 4px 17px 0 hsl(180, 52%, 86%);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 135px 1px 106px;
+        padding-right: 1em;
+        padding-left: 1.4em;
+        position: relative;
+    }
+
+    .item-logo{
+        margin-left: 1em;
+        height: 5em;
+        width: 5em;
+        position: absolute;
+        top: -2.55em;
+    }
+
+    .centerItem{
+        margin: 0;
+        margin-left: 0;
+        margin-top:2em;
+        padding: 0;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .position{
+        margin-top: .18em;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: hsl(180, 1%, 25%);
+    }
+    .borderToSetInsideJobItem{
+        margin-top: .25em;
+        border-top: 1.5px solid hsl(180, 1%, 87%);
+    }
+}

@@ -1,0 +1,21 @@
+
+.header{
+    margin: 0;
+    background-color: hsl(180, 29%, 50%);
+    background-image: url("../../assets/images/bg-header-desktop.svg");
+    height: 17vh;
+    background-position-x: 85%;
+    background-position-y: 87%;
+}
+
+@media (max-width: 376px) {
+
+    .header{
+        width: 375px !important;
+
+        background-color: hsl(180, 29%, 50%);
+        background-image: url("../../assets/images/bg-header-mobile.svg");
+        background-position-y: 87%;
+        background-position-x: initial;
+    }
+}

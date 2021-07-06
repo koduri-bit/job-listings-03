@@ -1,0 +1,213 @@
+@import url('https://fonts.google.com/specimen/Spartan');
+
+
+
+.jobtag{
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    height: 47px;
+    background-color: hsl(188, 100%, 100%);
+    border-radius: .15em;
+    box-shadow: 7px 3px 9px 0 hsl(180, 52%, 84%);
+    position: absolute;
+    top:-4em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    font-family: 'Spartan';
+}
+
+.tag:nth-child(1) {
+    margin-left: 1.71433em;
+}
+
+
+.tag{
+    background-color: hsl(180, 52%, 96%);
+    font-weight: bold;
+    font-size: 0.7em;
+    color:hsl(180, 29%, 50%);
+    padding: .57em;
+    position: relative;
+
+    pointer-events: none;
+}
+
+
+
+.tag::after{
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: .146em;
+    padding-bottom: .146em;
+    cursor: pointer;
+    content: '\2715';
+    position: absolute;
+    background-color: hsl(180, 29%, 50%);
+
+    left: 100%;
+
+    transform: translateY(-0.42em);
+    font-weight: bold;
+    font-size:1.4em;
+    font-family: 'Spartan';
+    border-top-right-radius: .15em;
+    border-bottom-right-radius: .15em;
+    color: white;
+
+    pointer-events: all;
+}
+
+
+
+.tag:hover::after{
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: .146em;
+    padding-bottom: .146em;
+    cursor: pointer;
+    content: '\2715';
+    position: absolute;
+
+    background-color: #272727;
+    left: 100%;
+
+    transform: translateY(-0.42em);
+    font-weight: bold;
+    font-size:1.4em;
+    font-family: 'Spartan';
+    border-top-right-radius: .15em;
+    border-bottom-right-radius: .15em;
+    color: white;
+
+    pointer-events: all;
+}
+
+.clearbtn{
+    border: none;
+    background-color: initial ;
+    font-weight: bold;
+    font-size:.9em;
+    color:  hsl(180, 3%, 63%);
+    font-family: 'Spartan';
+    position: absolute;
+    right:2%;
+    top:35%;
+
+}
+
+.clearbtn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (max-width: 376px) {
+
+
+
+    .jobtag{
+        margin: 0;
+        margin-bottom: 2em;
+        padding-bottom: 0;
+        width: 83%;
+        height: 10em;
+        background-color: hsl(188, 100%, 100%);
+        border-radius: .15em;
+        box-shadow: 7px 3px 9px 0 hsl(180, 52%, 84%);
+        position: absolute;
+        top:-5em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        align-self: initial;
+        padding-top: 1.3em;
+        padding-left: 1em;
+        row-gap: 0;
+        column-gap: 3em;
+    }
+
+    .tag:nth-child(1) {
+        margin-left: 0em;
+    }
+
+
+    .tag{
+        background-color: hsl(180, 52%, 96%);
+        font-weight: bolder;
+        font-size: 1em;
+        color:hsl(180, 29%, 50%);
+        padding: .57em;
+        position: relative;
+
+        pointer-events: none;
+    }
+
+
+
+    .tag::after{
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+        padding-top: .146em;
+        padding-bottom: .146em;
+        cursor: pointer;
+        content: '\2715';
+        position: absolute;
+        background-color: hsl(180, 29%, 50%);
+
+        left: 100%;
+
+        transform: translateY(-0.42em);
+        font-weight: bold;
+        font-size:1.4em;
+        font-family: 'Spartan';
+        border-top-right-radius: .15em;
+        border-bottom-right-radius: .15em;
+        color: white;
+
+        pointer-events: all;
+    }
+
+
+
+    .tag:hover::after{
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+        padding-top: .146em;
+        padding-bottom: .146em;
+        cursor: pointer;
+        content: '\2715';
+        position: absolute;
+
+        background-color: #272727;
+        left: 100%;
+
+        transform: translateY(-0.42em);
+        font-weight: bold;
+        font-size:1.4em;
+        font-family: 'Spartan';
+        border-top-right-radius: .15em;
+        border-bottom-right-radius: .15em;
+        color: white;
+        pointer-events: all;
+    }
+
+    .clearbtn{
+        border: none;
+        background-color: initial ;
+        font-weight: bold;
+        font-size:1.3em;
+        color:  hsl(180, 3%, 63%);
+        font-family: 'Spartan';
+        position: absolute;
+        right:7.4%;
+        top:40%;
+        text-decoration: none;
+    }
+    .clearbtn:hover{
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

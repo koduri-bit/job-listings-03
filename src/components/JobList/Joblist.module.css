@@ -1,0 +1,43 @@
+@import url('https://fonts.google.com/specimen/Spartan');
+
+.job-list{
+    margin: .5em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 6em;
+}
+
+.ul-joblist{
+    margin:0;
+    padding: 0;
+    width: 65%;
+}
+
+@media (max-width: 376px) {
+
+
+    .job-list{
+        margin: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-bottom: 2em;
+    }
+
+    .ul-joblist{
+        margin:0;
+        padding: 0;
+        width: 83%;
+    }
+
+    .expand-margin-for-joblist{
+        margin-top: 8em;
+    }
+}
