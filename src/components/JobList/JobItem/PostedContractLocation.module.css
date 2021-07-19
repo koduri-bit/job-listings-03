@@ -5,7 +5,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+    background-color: transparent;
 }
 
 .contract, .loc{
@@ -15,6 +15,7 @@
 .postedAt, .contract , .loc{
     font-size: .75em;
     color: hsl(180, 1%, 42%);
+    background-color: transparent;
 }
 
 .contract:before , .loc:before{
@@ -23,16 +24,12 @@
 
 }
 
-@media (max-width: 376px) {
+@media (max-width: 500px) {
 
     .job-relConLoc {
 
-        margin:0;
-        margin-top: .25em;
-        padding: 0;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        margin: .25em 0 0 0;
+
 
     }
 
@@ -43,11 +40,13 @@
     .postedAt, .contract , .loc{
         font-size: 1em;
         color: hsl(180, 2%, 65%);
+
     }
 
     .contract:before , .loc:before{
-        content: ' \2022';
+
         padding-right: .5em;
+
 
     }
 

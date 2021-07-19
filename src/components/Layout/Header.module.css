@@ -1,18 +1,18 @@
 
 .header{
-    margin: 0;
     background-color: hsl(180, 29%, 50%);
     background-image: url("../../assets/images/bg-header-desktop.svg");
     height: 17vh;
     background-position-x: 85%;
     background-position-y: 87%;
+
 }
 
-@media (max-width: 376px) {
+
+@media only screen and (max-width: 500px){
 
     .header{
-        width: 375px !important;
-
+        width: 100%;
         background-color: hsl(180, 29%, 50%);
         background-image: url("../../assets/images/bg-header-mobile.svg");
         background-position-y: 87%;

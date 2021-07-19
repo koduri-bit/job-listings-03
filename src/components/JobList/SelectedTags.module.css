@@ -38,10 +38,8 @@
 
 
 .tag::after{
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    padding-top: .146em;
-    padding-bottom: .146em;
+    padding: .146em 0.3em .146em 0.3em;
+
     cursor: pointer;
     content: '\2715';
     position: absolute;
@@ -63,10 +61,7 @@
 
 
 .tag:hover::after{
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    padding-top: .146em;
-    padding-bottom: .146em;
+    padding: .146em 0.3em .146em 0.3em;
     cursor: pointer;
     content: '\2715';
     position: absolute;
@@ -102,29 +97,21 @@
     text-decoration: underline;
     cursor: pointer;
 }
-@media (max-width: 376px) {
+@media (max-width: 500px) {
 
 
 
     .jobtag{
-        margin: 0;
-        margin-bottom: 2em;
-        padding-bottom: 0;
-        width: 83%;
-        height: 10em;
-        background-color: hsl(188, 100%, 100%);
-        border-radius: .15em;
-        box-shadow: 7px 3px 9px 0 hsl(180, 52%, 84%);
-        position: absolute;
-        top:-5em;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-wrap: wrap;
-
-        align-self: initial;
+        margin: 0 0 2em 0;
         padding-top: 1.3em;
         padding-left: 1em;
+        padding-bottom: 0;
+        width: 83%;
+        height: 8.5em;
+        top:-5em;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-self: initial;
         row-gap: 0;
         column-gap: 3em;
     }
@@ -135,79 +122,30 @@
 
 
     .tag{
-        background-color: hsl(180, 52%, 96%);
+
         font-weight: bolder;
         font-size: 1em;
-        color:hsl(180, 29%, 50%);
-        padding: .57em;
-        position: relative;
 
-        pointer-events: none;
     }
 
 
 
     .tag::after{
-        padding-left: 0.3em;
-        padding-right: 0.3em;
-        padding-top: .146em;
-        padding-bottom: .146em;
-        cursor: pointer;
-        content: '\2715';
-        position: absolute;
-        background-color: hsl(180, 29%, 50%);
+        padding: .146em 0.3em .146em 0.3em;
 
-        left: 100%;
-
-        transform: translateY(-0.42em);
-        font-weight: bold;
-        font-size:1.4em;
-        font-family: 'Spartan';
-        border-top-right-radius: .15em;
-        border-bottom-right-radius: .15em;
-        color: white;
-
-        pointer-events: all;
     }
 
 
 
-    .tag:hover::after{
-        padding-left: 0.3em;
-        padding-right: 0.3em;
-        padding-top: .146em;
-        padding-bottom: .146em;
-        cursor: pointer;
-        content: '\2715';
-        position: absolute;
 
-        background-color: #272727;
-        left: 100%;
-
-        transform: translateY(-0.42em);
-        font-weight: bold;
-        font-size:1.4em;
-        font-family: 'Spartan';
-        border-top-right-radius: .15em;
-        border-bottom-right-radius: .15em;
-        color: white;
-        pointer-events: all;
-    }
 
     .clearbtn{
-        border: none;
-        background-color: initial ;
-        font-weight: bold;
-        font-size:1.3em;
-        color:  hsl(180, 3%, 63%);
-        font-family: 'Spartan';
-        position: absolute;
-        right:7.4%;
-        top:40%;
+        font-size:1em;
+        right:7.2%;
+        top:47%;
         text-decoration: none;
     }
     .clearbtn:hover{
-        cursor: pointer;
         text-decoration: none;
     }
 }

@@ -15,26 +15,23 @@
     margin:0;
     padding: 0;
     width: 65%;
+    background-color: transparent;
 }
 
-@media (max-width: 376px) {
+@media only screen and (max-width: 500px) {
 
 
     .job-list{
         margin: 0;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
         padding-bottom: 2em;
     }
 
     .ul-joblist{
-        margin:0;
-        padding: 0;
         width: 83%;
+        margin: 2em 0 0 0;
+    }
+    .joblistExtraMargin{
+        margin-top: 7em;
     }
 
     .expand-margin-for-joblist{

@@ -8,11 +8,13 @@
     align-items: center;
     font-size: .75em;
     font-family: 'Spartan';
+    background-color: transparent;
 }
 .company{
     font-weight: bold;
     font-size: 1em;
     color:hsl(180, 29%, 50%);
+    background-color: transparent;
 }
 .new{
     background-color:hsl(180, 29%, 50%) ;
@@ -34,39 +36,29 @@
     text-align: center;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 500px) {
 
-    .job-featured {
-        margin:0;
-        padding: 0;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        font-size: .75em;
-        font-family: 'Spartan';
-    }
+
     .company{
         font-weight: bolder;
-        font-size: 1em;
-        color:hsl(180, 29%, 50%);
     }
 
     .new{
-        background-color:hsl(180, 29%, 50%) ;
+
         width: 14%;
     }
     .featured{
-        background-color: hsl(36, 6%, 0%);
+
         width: 22%;
 
     }
     .new, .featured{
-        font-weight: bold;
+
         font-size: .8em;
-        margin-left: 1em;
+
         padding-top: .7em;
         padding-bottom: .55em;
-        color: hsl(175, 55%, 92%);
+
         border-radius: 2em;
         height: 22px;
         text-align: center;

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/job-listings-03/static/css/main.c4886595.chunk.css",
+    "main.js": "/job-listings-03/static/js/main.7e1656ee.chunk.js",
+    "main.js.map": "/job-listings-03/static/js/main.7e1656ee.chunk.js.map",
+    "runtime-main.js": "/job-listings-03/static/js/runtime-main.984b8a8d.js",
+    "runtime-main.js.map": "/job-listings-03/static/js/runtime-main.984b8a8d.js.map",
+    "static/js/2.79e88ac4.chunk.js": "/job-listings-03/static/js/2.79e88ac4.chunk.js",
+    "static/js/2.79e88ac4.chunk.js.map": "/job-listings-03/static/js/2.79e88ac4.chunk.js.map",
+    "index.html": "/job-listings-03/index.html",
+    "static/css/main.c4886595.chunk.css.map": "/job-listings-03/static/css/main.c4886595.chunk.css.map",
+    "static/js/2.79e88ac4.chunk.js.LICENSE.txt": "/job-listings-03/static/js/2.79e88ac4.chunk.js.LICENSE.txt",
+    "static/media/account.903d6cd0.svg": "/job-listings-03/static/media/account.903d6cd0.svg",
+    "static/media/Header.module.css": "/job-listings-03/static/media/bg-header-mobile.9cb13612.svg",
+    "static/media/eyecam-co.0abb14e8.svg": "/job-listings-03/static/media/eyecam-co.0abb14e8.svg",
+    "static/media/faceit.54a148ce.svg": "/job-listings-03/static/media/faceit.54a148ce.svg",
+    "static/media/insure.4d535e7e.svg": "/job-listings-03/static/media/insure.4d535e7e.svg",
+    "static/media/loop-studios.7778c957.svg": "/job-listings-03/static/media/loop-studios.7778c957.svg",
+    "static/media/manage.5a528a96.svg": "/job-listings-03/static/media/manage.5a528a96.svg",
+    "static/media/myhome.aaaaa430.svg": "/job-listings-03/static/media/myhome.aaaaa430.svg",
+    "static/media/photosnap.5a867c13.svg": "/job-listings-03/static/media/photosnap.5a867c13.svg",
+    "static/media/shortly.3c01b577.svg": "/job-listings-03/static/media/shortly.3c01b577.svg",
+    "static/media/the-air-filter-company.9b55f644.svg": "/job-listings-03/static/media/the-air-filter-company.9b55f644.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.984b8a8d.js",
+    "static/js/2.79e88ac4.chunk.js",
+    "static/css/main.c4886595.chunk.css",
+    "static/js/main.7e1656ee.chunk.js"
+  ]
+}

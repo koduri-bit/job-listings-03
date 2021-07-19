@@ -8,7 +8,7 @@ import React from "react";
 function App() {
 
 
-  const styles = classes['app'] + ' ' + classes['app-contianer']
+    const styles = classes['app-contianer']
 
   return (
     <div className={styles}>

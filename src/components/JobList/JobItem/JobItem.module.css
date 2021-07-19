@@ -17,18 +17,21 @@
     margin-left: 1.2em;
     height: 5em;
     width: 5em;
+    background-color: transparent;
 }
 .item-language{
     margin-right: 10%;
+    background-color: transparent;
 }
 .position{
     font-size: 1em;
     font-weight: bold;
     color: hsl(180, 1%, 25%);
+    background-color: transparent;
 }
 .centerItem{
-    margin: 0;
-    margin-left: 2em;
+    margin: 0 0 0 2em;
+
     padding: 0;
     height: 5em;
     display: grid;
@@ -36,9 +39,13 @@
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: start;
     align-items: center;
+    background-color: transparent;
 }
 
-@media (max-width: 376px) {
+.borderToSetInsideJobItem{
+    display: none;
+}
+@media (max-width: 500px) {
 
 
 
@@ -71,9 +78,8 @@
     }
 
     .centerItem{
-        margin: 0;
-        margin-left: 0;
-        margin-top:2em;
+        margin: 2em 0 0 0;
+
         padding: 0;
         height: 100px;
         display: grid;
@@ -86,10 +92,9 @@
     .position{
         margin-top: .18em;
         font-size: 1.2em;
-        font-weight: bold;
-        color: hsl(180, 1%, 25%);
     }
     .borderToSetInsideJobItem{
+        display: inline-block;
         margin-top: .25em;
         border-top: 1.5px solid hsl(180, 1%, 87%);
     }
